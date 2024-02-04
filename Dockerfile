@@ -14,5 +14,4 @@ CMD ["java", "-jar", "./build/libs/spring-petclinic-data-jdbc-3.0.0.BUILD-SNAPSH
 
 EXPOSE 8080
 
-USER nobody
 ENTRYPOINT ["java", "-jar", "spring-petclinic-data-jdbc-3.0.0.BUILD-SNAPSHOT.jar"]
