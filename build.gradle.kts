@@ -47,7 +47,7 @@ dependencies {
 group = "org.springframework.samples"
 version = "3.0.0.BUILD-SNAPSHOT"
 description = "petclinic"
-java.sourceCompatibility = JavaVersion.VERSION_20
+java.sourceCompatibility = JavaVersion.VERSION_17
 
 publishing {
     publications.create<MavenPublication>("maven") {
